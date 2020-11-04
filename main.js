@@ -40,3 +40,5 @@ showTargetData();
 pills.forEach((item) => {
   item.addEventListener('click', changeActive);
 });
+
+//end project

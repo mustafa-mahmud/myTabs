@@ -1,0 +1,66 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.tab {
+  margin-top: 2rem;
+  padding: 2rem;
+}
+
+.tab__btn {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+  flex-wrap: wrap;
+}
+
+.tab__btn button {
+  border: 0;
+  border-radius: 100px;
+  padding: 1.3rem 3.2rem;
+  color: #222222;
+  margin-left: 2rem;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  outline: none;
+  margin-bottom: 2rem;
+}
+
+.tab__btn button:hover {
+  background-color: orangered;
+  color: #fff;
+}
+
+.tab__btn button::active {
+  outline: none;
+}
+
+.tab__info {
+  background-color: #f4f4f4;
+  padding: 3rem;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
+  margin-bottom: 2rem;
+}
+
+.tab__info p {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.tab .active {
+  display: block;
+  background-color: orangered;
+  color: #fff;
+}
